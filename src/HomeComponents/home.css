@@ -1,0 +1,538 @@
+/* Header login-----------------------------------------------------------------------------*/
+
+.metaMaskLogin {
+  background-color: white;
+  /* background-image:url("../Images/vegetables.jpg"); */
+  height: 485px;
+}
+
+.bp3-dialog-header {
+  background: orange!important;
+  /* font-family:"Arial, Helvetica, sans-serif "!important; */
+}
+
+.bp3-heading {
+  font-family: "sans-serif"!important;
+  color: white!important;
+}
+
+.login {
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: tomato;
+  text-decoration: none;
+  color: white;
+}
+
+.paragraph {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Arial, Helvetica, sans-serif ";
+}
+
+@media (min-width: 740px) {
+  #nav-Small-L {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  #nav-Full-L {
+    display: none;
+  }
+}
+
+/* Trusty Tracker Logo*/
+
+.logo {
+  display: flex;
+  font-family: Sans-serif;
+  font-weight: bold;
+  color: rgb(228, 111, 20);
+  font-size: 20px;
+  align-items: center;
+}
+
+/*Home search bar-*/
+
+html, body {
+  height: 100vh;
+  /* margin-top: 50px; */
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  /* background-color: rgb(236, 243, 250);  */
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.searchBlock {
+  /* background-color: rgb(199, 199, 199); */
+  /* background-image: url("../Images/homeSearchPic3.png"); */
+  background-image: url("../Images/market2.jpg");
+  /*背景圖案不重複  */
+  background-repeat: no-repeat;
+  /* 不靠Repeat,圖片占滿整個版面 */
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 5%;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  font-size: 25px;
+  width: 100%;
+  /*圖片高度  */
+  height: 95%;
+  /* 讓他從右邊移到中間 */
+  /* margin-left: 5%;   */
+}
+
+.font {
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  /* font-family: Impact, fantasy!important; */
+  color: #e06e11;
+  text-Align: 'left';
+  font-weight: bold;
+}
+
+.font2 {
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  /* color: rgb(240, 130, 6); */
+  color: rgb(255, 255, 255);
+  text-Align: 'left';
+}
+
+.container-1 {
+  margin-top: 7%;
+  margin-left: 5%;
+  width: 60%;
+}
+
+/* Search bar Round */
+
+.bar {
+  border-radius: 9px;
+}
+
+/* Search Button  */
+
+.button {
+  /* color: #e06e11;
+    background-color: #ffffff; */
+  color: #ffffff;
+  background-color: #e06e11;
+  ;
+  border: solid #e06e11;
+  border-width: 2px;
+  text-transform: uppercase;
+  border-radius: 9px;
+}
+
+.button:hover {
+  color: #e06e11;
+  /* background-color:  #e06e11; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  border: solid 1px #e06e11;
+}
+
+.textShadow {
+  text-shadow: 2px 2px 3px #656566;
+}
+
+/*Home: Carousel Background*/
+
+.bg-image {
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Carousel {
+  padding: 5%;
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .pictureSlideshow {
+  width :75%;
+  height:100%;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+  /* border:10px solid rgb(175, 240, 218)  ;
+  border-radius: 25px;
+  box-sizing:border-box!important; 
+  
+} 
+rgb(230, 213, 187) onion 
+rgb(255, 209, 174) carrot 
+rgb(196, 238, 224) mint
+rgb(129, 182, 209) lemon
+
+@keyframes myanimation {
+  0% {background-image: url("../Images/veggie3.jpg");} 
+  25%{background-image: url("../Images/veggie3.jpg");}
+  50%{background-image: url("../Images/veggie1.png");}
+  75%{background-image: url("../Images/veggie4.jpg");}
+  100% {background-image: url("../Images/veggie2.jpg");}
+}
+*/
+
+.introductionStyle {
+  color: rgb(255, 255, 255);
+  /* font-family: "Microsoft JhengHei"; */
+  text-align: left;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  line-height: 180%;
+  font-size: 2.4vw;
+}
+
+/* Slideshow的位置 text-shadow: 3px 3px 4px #7a7a7a; */
+
+#caption1 {
+  top: 20%;
+  bottom: auto;
+  width: 45%;
+  height: 60%;
+  left: 10%!important;
+}
+
+/* Slideshow 介紹的位置 */
+
+#caption2 {
+  top: 16%;
+  bottom: auto;
+  width: 45%;
+  height: 50%;
+  left: 10%!important;
+  padding: 5%;
+}
+
+/* 介紹農場的綠背景 */
+
+#container-fluid {
+  padding: 300px 300px;
+  /* background-color: rgb(161,208,192) ;  */
+  width: 100%;
+  height: 100%;
+  /* margin-left: 5%; */
+}
+
+/*rgb(209,192,165) onion
+ rgb(246,179,127) carrot
+ rgb(161,208,192) mint
+ rgb(109,160,186) lemon */
+
+/* 介紹系統 */
+
+/* 主要是把第二格最大範圍內縮 */
+
+.img2 {
+  background-color: rgb(175, 170, 196);
+  /* margin-left: 5%; */
+  /* margin-bottom: 10%;  */
+}
+
+/* .fourCircle{
+width: 90%;
+margin-left: 5%;
+margin-top: 10%;
+} */
+
+.intro {
+  font-size: 1.9vw;
+  color: rgb(250, 243, 234);
+  text-align: left;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  line-height: 180%;
+}
+
+.paragraphOne {
+  width: 100%;
+  margin-top: 25%;
+  margin-bottom: 15%;
+}
+
+/* 讓兩個div水平排列 row放外層 block放2個div */
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.block {
+  width: 60%;
+  margin-left: 20%;
+  /* height: 45%; */
+  /* display: inline-block;  */
+}
+
+.farmPic {
+  background-image: url("../Images/farm2.jpg");
+}
+
+.tomatoPic {
+  background-image: url("../Images/tomato.jpg");
+}
+
+.applePic {
+  background-image: url("../Images/apple.jpg");
+}
+
+/* footer */
+
+.footerRow {
+  margin-left: 35%;
+  /* text-align: center;  */
+}
+
+.footerBox {
+  width: 100%;
+  display: inline-block;
+}
+
+/* a:link{
+  color:rgb(119, 117, 117);
+} */
+
+.pfooter {
+  margin-bottom: 0px;
+  height: 20%;
+}
+
+.footerStyle {
+  color: rgb(119, 117, 117);
+  font-family: Georgia, serif;
+  font-size: 100%;
+}
+
+.footerTag {
+  color: rgb(107, 107, 107);
+}
+
+.footerTag:hover {
+  background-color: #e06e11;
+  color: #ffffff;
+}
+
+/* 
+.footer {
+  position: static;
+  font-family : Sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color :white;
+  color: gray;
+  text-align: center;
+  margin-top:3%;
+  margin-bottom:3%;
+  } */
+
+/* 第二欄開始的設定 */
+
+.test {
+  background-color: rgb(27, 19, 75);
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+/* 字形 */
+
+.testPara {
+  color: #ffffff;
+  text-align: center;
+  font-size: 140%;
+  /* font-family: Noto Serif, serif!important; */
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  line-height: 180%;
+}
+
+.testTitle {
+  color: #ffffff;
+  text-align: center;
+  font-family: Georgia, "Microsoft JhengHei", serif;
+  padding-bottom: 8%;
+}
+
+.testSubTitle {
+  color: #ffffff;
+  text-align: center;
+  /* font-family:  Work Sans, sans-serif!important; */
+  font-family: Tahoma, Helvetica, Arial, "Microsoft YaHei", sans-serif!important;
+  font-size: 120%;
+  color: rgb(88, 255, 193);
+}
+
+.curveSize {
+  width: 100%;
+  background-color: rgb(27, 19, 75);
+}
+
+.logoSize {
+  width: 20%;
+  padding: 2%;
+  margin-left: 4%;
+}
+
+/* 流程 */
+
+.processBg {
+  background-image: url(../Images/processbg2.png);
+  background-size: cover;
+}
+
+.wholeProcess {
+  width: 80%;
+  margin-top: 13%;
+  margin-bottom: 25%;
+}
+
+.cartPic {
+  width: 100%;
+  margin-top: -20%;
+  margin-left: 950%;
+}
+
+.cartDiv {
+  width: 10%;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+}
+
+.timeline {
+  width: 100%;
+  padding: 5%;
+  margin-top: -7%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
+
+.timelineDiv {
+  width: 80%;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+}
+
+.processInline {
+  display: inline-block;
+  text-align: center;
+  width: 7%;
+  position: absolute;
+  z-index: 2;
+}
+
+/* 流程1-6定位 */
+
+.pr1 {
+  margin-left: 18%;
+  margin-top: -11%;
+}
+
+.pr3 {
+  margin-left: 38%;
+  margin-top: -11%;
+}
+
+.pr5 {
+  margin-left: 58%;
+  margin-top: -11%;
+}
+
+.pr2 {
+  margin-left: 28%;
+  margin-top: 5%;
+}
+
+.pr4 {
+  margin-left: 48%;
+  margin-top: 5%;
+}
+
+.pr6 {
+  margin-left: 68%;
+  margin-top: 5%;
+}
+
+.processPic {
+  width: 100%;
+}
+
+/* 流程解說定位 */
+
+.box {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.exp1 {
+  margin-top: -40%;
+  margin-left: 10%;
+}
+
+.exp2 {
+  margin-top: -22%;
+  margin-left: 20%;
+}
+
+.exp3 {
+  margin-top: -40%;
+  margin-left: 31%;
+}
+
+.exp4 {
+  margin-top: -22%;
+  margin-left: 40%;
+}
+
+.exp5 {
+  margin-top: -40%;
+  margin-left: 50%;
+}
+
+.exp6 {
+  margin-top: -22%;
+  margin-left: 60%;
+}
+
+.exp7 {
+  margin-top: -36%;
+  margin-left: 70%;
+}
+
+.box:hover .box-hover-text {
+  display: block;
+}
+
+.box .box-hover-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: rgba(18, 13, 51, 0.8);
+}
+
+.box-body {
+  padding: 2%;
+  line-height: 180%;
+  color: #ffffff;
+  text-align: center;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft JhengHei", sans-serif!important;
+  font-size: 2.4vw;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300&display=swap');
+
+.page{
+    padding:0 0;
+    overflow: hidden;
+}
+
+.panels{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px
+}
+
+.searchBar{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.title{
+    color:black;
+    margin-top:20px;
+    text-align:center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.content{
+    background-color: white;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height:80vh;
+    text-align: center;    
+    overflow-y:scroll;
+}
+
+.bg{
+    background-image: url("../Images/citrus.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    }
+
