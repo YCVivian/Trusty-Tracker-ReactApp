@@ -1,6 +1,6 @@
 # Trusty Tracker
-- ![trusty tracker](https://user-images.githubusercontent.com/81873666/115769600-b6e89c00-a379-11eb-985e-b3f80821a837.png)
-- 
+![trusty tracker](https://user-images.githubusercontent.com/81873666/115769600-b6e89c00-a379-11eb-985e-b3f80821a837.png)
+
 ## _Blockchain Solution for Safe Food Resume
 Trusty Tracker is a blockchain application targeted to create a more secured way to document supply chain processes, specifically Agricultural production, and in turn generate a trusty worthy food resume for buyers on the market.
 
